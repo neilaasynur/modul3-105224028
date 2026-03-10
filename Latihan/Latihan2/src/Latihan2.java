@@ -4,7 +4,7 @@ public class Latihan2 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner (System.in);
 
-        String PIN = "64532";
+        final String PIN = "64532";
 
         System.out.println("Program ini meminta untuk memasukkan PIN dengan maksimal percobaan sebanyak 3 kali!\nHint: Angka PIN berisi 5 angka");
         int i = 1;
