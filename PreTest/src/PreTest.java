@@ -12,7 +12,9 @@ public class PreTest {
         input.close();
 
         if (usia >= 17){
+            System.out.println("Umur pendonor memenuhi syarat untuk mendonorkan darah.");
             if (beratBadan >= 45){
+                System.out.println("Berat badan pendonor memenuhi syarat untuk mendonorkan darah.");
                 if (kadarHomoglobin >= 12.5){
                     System.out.println("Pendonor memenuhi semua syarat untuk mendonorkan darah.");
                 } else {
